@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Lab7.0_GC/1.0.0": {
+        "runtime": {
+          "Lab7.0_GC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab7.0_GC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
