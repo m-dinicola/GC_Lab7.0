@@ -16,7 +16,7 @@ namespace Lab7._0_GC
                 { 4, "Date Validator" },
                 { 5, "HTML Tag Validator" }
             };
-            string optionString = " ";
+            string optionString = "";
             foreach (KeyValuePair<int, string> option in options)
             {
                 optionString += $"{option.Key}. {option.Value}\n";
@@ -142,13 +142,13 @@ namespace Lab7._0_GC
             return Console.ReadLine();
         }
 
-        //GetInt overflow for any value with no defined error message.
+        //GetInt overload for any value with no defined error message.
         public static int GetInt(string message)
         {
             return GetInt(message, "Not a valid input. ", int.MinValue, int.MaxValue);
         }
 
-        //GetInt overflow for a set of possible values (not recommended for large sets)
+        //GetInt overload for a set of possible values (not recommended for large sets)
         public static int GetInt(string message, string errorMessage, int[] set)
         {
             int returnVal;
@@ -159,7 +159,7 @@ namespace Lab7._0_GC
             return returnVal;
         }
 
-        //GetInt overflow for a set of possible values without a defined error message (not recommended for large sets)
+        //GetInt overload for a set of possible values without a defined error message (not recommended for large sets)
         public static int GetInt(string message, int[] set)
         {
             return GetInt(message, "Not a valid input. ", set);
